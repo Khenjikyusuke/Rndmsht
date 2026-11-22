@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&display=swap");
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    height: 100svh;
+    display: grid;
+    place-items: center;
+    overflow: hidden;
+    background: url("Love.gif") center / cover no-repeat fixed;
+    font-family: "Fredoka", "Trebuchet MS", sans-serif;
+}
+
+.Audio {
+    display: none;
+}
+
+.home-container {
+    width: min(350px, calc(100vw - 32px));
+    height: min(390px, calc(100svh - 24px));
+    padding: clamp(14px, 4vw, 24px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+    overflow: hidden;
+    border-radius: 20px;
+    background: #fff;
+}
+
+.home-container h1 {
+    margin: 0;
+    max-width: 100%;
+    text-align: center;
+    font-family: "Fredoka", "Trebuchet MS", sans-serif;
+    font-size: clamp(1.15rem, 5vw, 1.7rem);
+    font-weight: 600;
+    line-height: 1.12;
+    overflow-wrap: anywhere;
+}
+
+.home-container p {
+    margin: 0;
+    max-width: 100%;
+    text-align: center;
+    font-size: clamp(0.85rem, 3.5vw, 1rem);
+    line-height: 1.25;
+    overflow-wrap: anywhere;
+}
+
+.dare-aggie {
+    width: min(200px, 55vw, 22svh);
+    aspect-ratio: 1 / 1;
+    flex: 0 1 200px;
+    min-height: 0;
+    object-fit: contain;
+    border-radius: 50px;
+}
+
+.next-link {
+    padding: 12px 28px;
+    border-radius: 12px;
+    background: #1877f2;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    color: #fff;
+    text-decoration: none;
+}
+
+.next-link:hover {
+    transform: translateY(-6px) scale(1.08);
+    box-shadow: 0 1px 30px #00000080;
+    filter: brightness(1.15);
+}
+
+.Facebook {
+    padding: 12px 28px;
+    border-radius: 12px;
+    background: #1877f2;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    color: #fff;
+    text-decoration: none;
+}
+
+.Instagram {
+    padding: 12px 28px;
+    border-radius: 12px;
+    background: linear-gradient(45deg, #feda75, #fa7e1e, #d62976, #962fbf, #4f5bd5);
+    color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    color: #fff;
+    text-decoration: none;
+}
+
+.Discord {
+    padding: 12px 28px;
+    border-radius: 12px;
+    background: #7e01f3;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    color: #fff;
+    text-decoration: none;
+}
+
+.Roblox {
+    padding: 12px 28px;
+    border-radius: 12px;
+    background: #020000e8;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    color: #fff;
+    text-decoration: none;
+}
+
+.Facebook:hover {
+    background: #0866FF;
+    transform: translateY(-6px) scale(1.05);
+    box-shadow: 0 8px 25px #1877F280;
+}
+
+.Instagram:hover {
+    transform: translateY(-6px) scale(1.08);
+    box-shadow: 0 8px 30px #d6297680;
+    filter: brightness(1.15);
+}
+
+.Discord:hover {
+    background: #4752C4;
+    transform: translateY(-6px) scale(1.05);
+    box-shadow: 0 8px 25px #5865F280;
+}
+
+.Roblox:hover {
+    background: #000000;
+    transform: translateY(-6px) scale(1.05);
+    box-shadow: 0 8px 25px #02000080;
+}
+
+.btn {
+   padding: 12px 28px;
+    border-radius: 12px;
+    background: #ff0000;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    color: #fff;
+    text-decoration: none;
+}
+
+.btn:hover {
+    transform: translateY(-6px) scale(1.08);
+    box-shadow: 0 1px 30px #00000080;
+    filter: brightness(1.15);
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Why I'm Good Boyfriend</title>
+    <link rel="icon" type="image/png" href="Logo.png">
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+
+    <script>
+function moveButton() {
+    const btn = document.getElementById("moveBtn");
+
+    const maxX = window.innerWidth - btn.offsetWidth - 20;
+    const maxY = window.innerHeight - btn.offsetHeight - 20;
+
+    const randomX = Math.random() * maxX;
+    const randomY = Math.random() * maxY;
+
+    btn.style.position = "fixed";
+    btn.style.left = randomX + "px";
+    btn.style.top = randomY + "px";
+}
+    </script>
+
+    <header class="Audio">
+        <audio controls autoplay loop>
+            <source src="bgsound.mp3" type="audio/mpeg">
+        </audio>
+    </header>
+
+    <section class="home-container">
+        <h1>Now Can I be your boyfriend?</h1>
+        <p>mommy, plsss say yes</p>
+        <img class="dare-aggie" src="blush.gif" alt="Dare Aggie Blush">
+        <a class="next-link" href="Form.html">Yes</a>
+        <button class="btn" id="moveBtn" onclick="moveButton()">No</button>
+    </section>
+</body>
+</html>
